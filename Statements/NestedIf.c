@@ -3,7 +3,7 @@ int main()
 {
   int a;
   printf("Enter a number");
-  scanf("%d", 7a);
+  scanf("%d", &a);
     if(a%2==0) {
       if(a%11==0) {
         printf("Number is mutiple of 11");
