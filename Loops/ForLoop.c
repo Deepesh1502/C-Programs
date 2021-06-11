@@ -8,6 +8,6 @@ int main()
 {
   printf("For Loop:");
   int i; //the int keyword will assign a value to variable i
-  for(i=1; i<10; i++);
+  for(i=1; i<10; i=i+1);
   printf(i);
   )
