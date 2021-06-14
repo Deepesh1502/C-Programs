@@ -8,7 +8,7 @@ int main()
     if(a>c)
       printf("%d is greatest no. \n", a);
     else
-      printf("5d is greatest no. \n", c);
+      printf("%d is greatest no. \n", c);
   else
     if(b>c)
       printf("%d is greatest no. \n", b);
