@@ -12,23 +12,23 @@ int main()
   {
     printf("Your day was awesome ;)");
   }
-  if else (n<=9)
+  else if (n<=9)
   {
     printf("Your day was good :)");
   }
-  if else (n<=7)
+  else if (n<=7)
   {
     printf("Your day was neutral");
   }
-  if else (n<=5)
+  else if (n<=5)
   {
     printf("Your day was Bad");
   }
-  if else (n<=3)
+  else if (n<=3)
   {
     printf("Your day was very bad :("):
   }
-  if else (n<=2)
+  else if (n<=2)
   {
     printf("Go to Hell!!");
   }
