@@ -1,5 +1,5 @@
 /*The program will determine
-Whether the value is positive or negative
+Whether the value is non-zero or not
 */
 #include <stdio.h>
 int main()
@@ -7,10 +7,12 @@ int main()
   int n;
   printf("Enter the value: ");
   scanf("%d", &n);
-  if (n>0)
+  if ((n>0) || (n<0))
   {
-    printf("The number is positive");
+    printf("The number is non-zero");
   }
-  else
-    printf("The number is negative");
+/*If the value is 0 then there will be
+no output and the program will stop
+*/
+  return 0;
 }
